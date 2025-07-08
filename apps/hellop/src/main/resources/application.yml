@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: hellop
+
+  datasource:
+    url: jdbc:postgresql://192.168.111.129:5432/deploytest2
+    username: jay
+    password: 1234
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+server:
+  port: 8080
+  address: 0.0.0.0
